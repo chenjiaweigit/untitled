@@ -64,5 +64,5 @@ else:
 print(requests.codes.ok)
 
 print(r.raise_for_status(),"\n",r.cookies)
-print(r.json)
-print(r.url, "\n", r.text)
+# print(r.json)
+# print(r.url, "\n", r.text)
