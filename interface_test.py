@@ -1,9 +1,8 @@
 
 import requests
-import unittest
+
 # from HTMLTestRunner import HTMLTestRunner
 
-import time
 #
 # class Interface_test(unittest.TestCase):
 #     def test_node_api(self):
@@ -65,5 +64,5 @@ else:
 print(requests.codes.ok)
 
 print(r.raise_for_status(),"\n",r.cookies)
-# print(r.json)
-# print(r.url,"\n",r.text)
+print(r.json)
+print(r.url, "\n", r.text)
